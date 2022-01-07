@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="icon" transform="translate(-40 -172)">
+    <rect id="Rectangle_1489" data-name="Rectangle 1489" width="20" height="20" transform="translate(40 172)" fill="none"/>
+    <g id="Icon_feather-alert-circle" data-name="Icon feather-alert-circle" transform="translate(40.333 172.333)">
+      <path id="Path_1092" data-name="Path 1092" d="M18.333,10A8.333,8.333,0,1,1,10,1.667,8.333,8.333,0,0,1,18.333,10Z" fill="none" stroke="#ff453a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.667"/>
+      <path id="Path_1093" data-name="Path 1093" d="M10,6.667V10" fill="none" stroke="#ff453a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.667"/>
+      <path id="Path_1094" data-name="Path 1094" d="M10,13.333h0" fill="none" stroke="#ff453a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.667"/>
+    </g>
+  </g>
+</svg>

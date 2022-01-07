@@ -1,0 +1,23 @@
+.MainLayout {
+  .Home {
+    .video-card {
+      height: 150px;
+      .img {
+        width: 150px;
+        height: 150px;
+        img {
+          top: 0;
+          left: 0;
+        }
+      }
+      .body {
+        flex: 1;
+        max-width: calc(100% - 150px);
+        .description {
+          overflow: auto;
+          flex: 1;
+        }
+      }
+    }
+  }
+}

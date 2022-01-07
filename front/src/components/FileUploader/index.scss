@@ -1,0 +1,18 @@
+.FileUploader {
+  .form {
+    border-style: dashed;
+    border-width: 2px;
+    height: 167px;
+    .message {
+      min-height: 15px;
+      font-size: 0.6rem;
+    }
+  }
+  .files {
+    .file {
+      .content {
+        flex: 1;
+      }
+    }
+  }
+}

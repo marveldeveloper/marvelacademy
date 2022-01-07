@@ -1,0 +1,41 @@
+$white: #fff;
+$black: #000;
+$primary: #002266;
+$secondary: #4d4f5c;
+$success: #4caf50;
+$info: #007cd8;
+$warning: #f8da4e;
+$danger: #fe484f;
+$light: #efefef;
+$dark: #2a2925;
+$light-gray: #e8e8e8;
+$gray: #989898;
+$dark-gray: #707070;
+$indigo: #6610f2;
+
+$gradient-1: linear-gradient(to right, $info, $primary);
+
+$custom-colors: (
+  "white": $white,
+  "black": $black,
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark,
+  "light-gray": $light-gray,
+  "gray": $gray,
+  "dark-gray": $dark-gray,
+  "indigo": $indigo,
+);
+$custom-font-sizes: (
+  7: $font-size-base * 0.75,
+  8: $font-size-base * 0.5,
+);
+$font-sizes: map-merge($font-sizes, $custom-font-sizes);
+$theme-colors: map-merge($theme-colors, $custom-colors);
+$theme-colors-rgb: map-loop($theme-colors, to-rgb, "$value");
+$utilities-bg-colors: map-loop($theme-colors, rgba-css-var, "$key", "bg");

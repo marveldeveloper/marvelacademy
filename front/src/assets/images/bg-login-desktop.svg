@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1083" viewBox="0 0 1920 1083">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" x2="0" y2="0.805" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#58d7ff"/>
+      <stop offset="0.509" stop-color="#007cd8"/>
+      <stop offset="1" stop-color="#026"/>
+    </linearGradient>
+    <clipPath id="clip-login_1_1">
+      <rect width="1920" height="1083"/>
+    </clipPath>
+  </defs>
+  <g id="login_1_1" data-name="login 1 – 1" clip-path="url(#clip-login_1_1)">
+    <rect width="1920" height="1083" fill="url(#linear-gradient)"/>
+    <g id="Group_97" data-name="Group 97">
+      <rect id="Rectangle_397" data-name="Rectangle 397" width="792" height="883" rx="5" transform="translate(386.281 1799.906) rotate(-120)" fill="#37689a" opacity="0.46"/>
+      <rect id="Rectangle_396" data-name="Rectangle 396" width="489.278" height="676.527" rx="5" transform="matrix(0.695, -0.719, 0.719, 0.695, 1448.068, 218.225)" fill="#8dbdd1" opacity="0.46"/>
+      <rect id="Rectangle_398" data-name="Rectangle 398" width="407" height="631" rx="5" transform="matrix(0.829, -0.559, 0.559, 0.829, -399.634, -8.266)" fill="#34689d" opacity="0.46"/>
+    </g>
+  </g>
+</svg>

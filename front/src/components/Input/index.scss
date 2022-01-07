@@ -1,0 +1,40 @@
+.Input {
+  width: 100%;
+  height: fit-content;
+  .input-box {
+    &::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background: var(--bs-info);
+      bottom: -1px;
+      left: 0;
+      transition: transform 500ms ease;
+      transform: scaleX(0);
+      transform-origin: 0 0;
+    }
+    width: 100%;
+    min-height: 35px;
+    input,
+    textarea {
+      flex: 1;
+      outline: none;
+      background-color: transparent;
+      &::placeholder {
+        text-align: start;
+      }
+    }
+    textarea {
+      min-height: 100px;
+    }
+  }
+  .message {
+    min-height: 15px;
+    font-size: 0.6rem;
+  }
+  &.focused .input-box::before {
+    transform-origin: 100% 0;
+    transform: scaleX(1);
+  }
+}

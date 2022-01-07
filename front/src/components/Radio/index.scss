@@ -1,0 +1,47 @@
+.Radio {
+  label {
+    input {
+      appearance: none;
+      display: none;
+    }
+    div.checkbox {
+      width: 20px;
+      height: 20px;
+      &::before,
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: var(--bs-dark);
+      }
+      &::before {
+        width: 100%;
+        height: 2px;
+        box-shadow: 0 -18px 0 var(--bs-dark);
+      }
+      &::after {
+        width: 2px;
+        height: 100%;
+        box-shadow: 18px 0 0 var(--bs-dark);
+      }
+    }
+    p {
+      max-width: calc(100% - 20px - 0.5rem);
+    }
+    input:checked {
+      + div.checkbox {
+        transform: rotate(-45deg) translate(5px, -7.5px);
+        &::before {
+          background-color: var(--bs-success);
+          box-shadow: 0 0 0 transparent;
+        }
+        &::after {
+          height: 50%;
+          background-color: var(--bs-success);
+          box-shadow: 0 0 0 transparent;
+        }
+      }
+    }
+  }
+}

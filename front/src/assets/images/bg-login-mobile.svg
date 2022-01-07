@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360" height="760" viewBox="0 0 360 760">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.958" y1="0.029" x2="0.067" y2="0.808" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#56d5fe"/>
+      <stop offset="0.364" stop-color="#007cd8"/>
+      <stop offset="1" stop-color="#026"/>
+    </linearGradient>
+    <clipPath id="clip-login1_mobbile_1">
+      <rect width="360" height="760"/>
+    </clipPath>
+  </defs>
+  <g id="login1_mobbile_1" data-name="login1_mobbile – 1" clip-path="url(#clip-login1_mobbile_1)">
+    <rect width="360" height="760" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_1609" data-name="Rectangle 1609" width="407" height="631" rx="5" transform="matrix(0.829, -0.559, 0.559, 0.829, -545.634, -90.266)" fill="#0a86dc" opacity="0.46"/>
+    <rect id="Rectangle_1611" data-name="Rectangle 1611" width="407" height="631" rx="5" transform="matrix(0.829, -0.559, 0.559, 0.829, 238.055, 83.734)" fill="#229fe7" opacity="0.46"/>
+    <rect id="Rectangle_1610" data-name="Rectangle 1610" width="364" height="407" rx="5" transform="translate(-38.605 1034.17) rotate(-120)" fill="#003179" opacity="0.46"/>
+  </g>
+</svg>

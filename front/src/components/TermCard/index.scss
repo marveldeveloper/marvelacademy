@@ -1,0 +1,25 @@
+.TermCard {
+  height: 450px;
+  filter: brightness(0.9);
+  height: 375px;
+  &:hover {
+    filter: brightness(1);
+  }
+  .id {
+    width: 50px;
+    height: 50px;
+    min-height: 50px;
+    margin-bottom: -25px;
+  }
+  .content {
+    height: calc(100% - 25px);
+    .description {
+      width: 90%;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}

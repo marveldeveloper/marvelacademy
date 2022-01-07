@@ -1,0 +1,26 @@
+@each $color, $value in $theme-colors {
+  .btn-#{$color} {
+    color: white;
+    &:focus,
+    &:hover,
+    &:disabled,
+    &.active,
+    &:active {
+      color: white;
+    }
+  }
+  .btn-outline-#{$color} {
+    &:hover,
+    &:active {
+      color: white;
+    }
+  }
+}
+
+.btn-gradient-1 {
+  background: $gradient-1;
+  color: white;
+  &:hover {
+    color: white;
+  }
+}

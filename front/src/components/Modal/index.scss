@@ -1,0 +1,30 @@
+.Modal {
+  inset: 0;
+  z-index: 10;
+  .hide-btn {
+    all: unset;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: block;
+  }
+  .dialog {
+    max-height: 100%;
+    pointer-events: all;
+  }
+  &:not(.show) {
+    pointer-events: none;
+    background-color: transparent;
+    .dialog {
+      transform: scale(0);
+    }
+  }
+  &.show {
+    background-color: rgba($color: #000000, $alpha: 0.5);
+    .dialog {
+      transform: scale(1);
+    }
+  }
+}

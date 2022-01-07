@@ -1,0 +1,31 @@
+.Table {
+  max-width: 100%;
+  min-height: 375px;
+  table {
+    min-width: 400px;
+    border-collapse: collapse;
+    &.table-hover {
+      tbody {
+        tr {
+          > * {
+            transition: 0.2s;
+          }
+          td {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    * {
+      white-space: inherit;
+    }
+    // th:nth-child(even),
+    // td:nth-child(even) {
+    //   text-align: end;
+    // }
+    // th:nth-child(odd),
+    // td:nth-child(odd) {
+    //   text-align: start;
+    // }
+  }
+}

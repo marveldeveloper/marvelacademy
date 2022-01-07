@@ -1,0 +1,23 @@
+.Users {
+  > header {
+    nav {
+      a {
+        position: relative;
+        transition: 250ms;
+        padding: 0.5rem 0.25rem;
+      }
+    }
+  }
+  > main {
+    min-height: calc(100vh - 300px);
+  }
+  .Footer {
+    .social-network {
+      a {
+        &:hover {
+          color: var(--bs-info);
+        }
+      }
+    }
+  }
+}

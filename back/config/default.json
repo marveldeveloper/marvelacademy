@@ -1,0 +1,43 @@
+{
+  "port": "4000",
+
+  "baseUrl": "http://127.0.0.1:4000",
+  "authServerBaseUrl": "http://marveltradeconsult.com",
+  "mongAddress": "127.0.0.1",
+  "mongName": "marvel",
+  "mongPort": "27017",
+
+  "redisAddress": "127.0.0.1",
+  "redisPort": "6379",
+
+  "maxPerPage": 1000,
+
+  "bcryptSaltRounds": 15,
+
+  "requiresAuth": true,
+  "jwtPrivateKey": "unsecureKey",
+  "changeCodeKeyTemplate": "change:%s",
+  "loginCodeKeyTemplate": "login:%s",
+  "second": 1000,
+  "minute": 60000,
+  "hour": 3600000,
+  "authTokenExpireTime": 864000,
+  "authTokenPostfixLength": 10,
+
+  "perPageStringLen": 3,
+  "pageStringLen": 3,
+  "superSmallStringLen": 20,
+  "smallStringLen": 50,
+  "mediumStringLen": 100,
+  "largeStringLen": 1000,
+  "objectIdLen": 24,
+  "minPhoneLen": 8,
+  "maxPhoneLen": 15,
+  "minSearchLen": 3,
+  "maxSearchLen": 20,
+  "superSmallNumber": 20,
+  "smallNumber": 100,
+  "mediumNumber": 1000,
+  "largeNumber": 10000
+
+}

@@ -1,0 +1,126 @@
+$utilities: (
+  "background-color": (
+    property: background-color,
+    class: bg,
+    responsive: true,
+    local-vars: (
+      "bg-opacity": 1,
+    ),
+    values: $utilities-bg-colors,
+  ),
+  "border-color": (
+    property: border-color,
+    class: border,
+    responsive: true,
+    values: $theme-colors,
+  ),
+  "color": (
+    property: color,
+    class: text,
+    responsive: true,
+    values: $theme-colors,
+  ),
+  "opacity": (
+    property: opacity,
+    class: opacity,
+    responsive: true,
+    values: (
+      0: 0,
+      1: 0.1,
+      2: 0.2,
+      3: 0.3,
+      4: 0.4,
+      5: 0.5,
+      6: 0.6,
+      7: 0.7,
+      8: 0.8,
+      9: 0.9,
+      10: 1,
+    ),
+  ),
+  "transition": (
+    property: transition,
+    class: transition,
+    values: (
+      null: all 250ms ease,
+      500: all 500ms ease,
+    ),
+  ),
+  "text-align": (
+    responsive: true,
+    property: text-align,
+    class: text,
+    values: (
+      start: start,
+      end: end,
+      center: center,
+      justify: justify,
+    ),
+  ),
+  "cursor": (
+    property: cursor,
+    class: cursor,
+    values: (
+      pointer: pointer,
+    ),
+  ),
+  "object-fit": (
+    property: object-fit,
+    class: object-fit,
+    values: (
+      cover: cover,
+      contain: contain,
+    ),
+  ),
+  "white-space": (
+    property: white-space,
+    class: white-space,
+    values: (
+      pre-wrap: pre-wrap,
+      nowrap: nowrap,
+    ),
+  ),
+  "font-family": (
+    property: font-family,
+    class: font,
+    values: (
+      en: "estedad-en",
+      fa: "estedad-fa",
+    ),
+  ),
+  "row-gap": (
+    property: row-gap,
+    class: row-gap,
+    values: (
+      0: 0,
+      1: $spacer * 0.25,
+      2: $spacer * 0.5,
+      3: $spacer,
+      4: $spacer * 1.5,
+      5: $spacer * 3,
+    ),
+  ),
+  "column-gap": (
+    property: column-gap,
+    class: col-gap,
+    values: (
+      0: 0,
+      1: $spacer * 0.25,
+      2: $spacer * 0.5,
+      3: $spacer,
+      4: $spacer * 1.5,
+      5: $spacer * 3,
+    ),
+  ),
+  "max-width": (
+    property: max-width,
+    class: mw,
+    values: (
+      25: 25%,
+      50: 50%,
+      75: 75%,
+      100: 100%,
+      auto: auto,
+    ),
+  ),
+);

@@ -1,0 +1,13 @@
+.Pagination {
+  height: 40px;
+  .pagination-box {
+    .btn {
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 30px;
+      height: 30px;
+    }
+  }
+}

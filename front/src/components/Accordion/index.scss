@@ -1,0 +1,39 @@
+.accordion__section {
+  display: flex;
+  flex-direction: column;
+}
+.accordion {
+  color: inherit;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: none;
+  outline: none;
+  background-color: inherit;
+}
+.accordion:hover {
+  background-color: rgba($color: var(--bs-primary-rgb), $alpha: 0.1);
+}
+.accordion__title {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.accordion__icon {
+  margin-right: auto;
+  transition: transform 0.6s ease;
+}
+
+.rotate {
+  transform: rotate(90deg);
+}
+
+.accordion__content {
+  overflow: hidden;
+  transition: max-height 0.6s ease;
+}
+
+.accordion__text {
+  font-weight: 400;
+  font-size: 14px;
+}

@@ -1,0 +1,13 @@
+.ProfileCard {
+  .image-box {
+    height: 150px;
+    .profile {
+      transform: translateY(40%);
+    }
+  }
+  .content {
+    p {
+      margin: 0;
+    }
+  }
+}
